@@ -1,0 +1,98 @@
+:root{
+    --color-brand--1: #ffb545;
+    --color-brand--2: #00c46a;
+
+    --color-dark--1: #2d3439;
+    --color-dark--2: #42484d;
+
+    --color-light--1: #aaa;
+    --color-light--2: #ececec;
+    --color-light--3: rgb(214,222,224);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Manrope',  sans-serif;
+    color: var(--color-light--2);
+    font-weight: 400;
+    line-height: 1.6;
+    height: 100vh;
+    overscroll-behavior-y: none;
+}
+
+::-webkit-scrollbar{
+    width: 4px;
+    background-color: #42484d;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #00c46a;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.sec{
+   padding: 20px;
+}
+
+.sec .col-4{
+    background-color: var(--color-dark--1);
+    height: 94vh !important;
+}
+.sec .col-8{
+    background-color: var(--color-light--1);
+}
+.sec .all{
+    font-size: 30px;
+}
+.sec .all i{
+    color: #00c46a;
+}
+.sec .all span{
+    color:white;
+}
+label{
+    color: #aaa;
+}
+
+.form__row--hidden{
+    display: none;
+}
+
+.hidden{
+    display: none;
+}
+
+.running__workout{
+    border-left: 5px solid var(--color-brand--2);
+}
+
+.cycling__workout{
+    border-left: 5px solid var(--color-brand--1);
+
+}
+
+#map{
+    font-size: 16px !important;
+}
+
+.workout__running--title{
+color: #00c46a;
+}
+.workout__cycling--title{
+    color:#ffb545;
+    }
